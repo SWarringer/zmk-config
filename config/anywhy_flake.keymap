@@ -12,13 +12,15 @@
 #define NL ZMK_SWITCH_LAYOUT_NEXT
 
 // Home Row Modifiers config
-#define KEYS_L 46 47 48 49 50 51 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29      // left hand
-#define KEYS_R 52 53 54 55 56 57 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35  // right hand
-#define THUMBS 36 37 38 39 40 41 42 43 44 45                                     // thumbs
+// Inspired by Urob's Timeless HRM config
+// https://github.com/urob/zmk-config
+#define KEYS_L 46 47 48 49 50 51 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29   // left hand
+#define KEYS_R 52 53 54 55 56 57 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 // right hand
+#define THUMBS 36 37 38 39 40 41 42 43 44 45                                       // thumbs
 
+#define TAPPING_TERM_MS 280
 #define QUICK_TAP_MS 175
 #define PRIOR_IDLE_MS 150
-#define TAPPING_TERM_MS 250
 
 / {
     behaviors {
@@ -126,10 +128,10 @@
 
         base {
             bindings = <
-&gresc      &kp Q        &kp W       &kp E     &kp R   &kp T               &kp Y      &kp U        &kp I          &kp O         &kp P       &kp BSLH
-&kp TAB     &kp A        &kp S       &kp D     &kp F   &kp G               &kp H      &kp J        &kp K          &kp L         &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z        &kp X       &kp C     &kp V   &kp B               &kp N      &kp M        &kp COMMA      &kp DOT       &kp FSLH    &kp RSHFT
-            &kp LCTRL    &sl_ga      &sl_ag  &mo 1   &kp BACKSPACE       &kp SPACE  &kp ENTER    &mo 2          &kp LALT      &sl_s
+&gresc      &kp Q         &kp W        &kp E        &kp R        &kp T               &kp Y      &kp U         &kp I        &kp O        &kp P            &kp BSLH
+&kp TAB     &hml LCTRL A  &hml LGUI S  &hml LALT D  &hml LSHFT F &kp G               &kp H      &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &kp APOS
+&kp LSHFT   &kp Z         &kp X        &kp C        &kp V        &kp B               &kp N      &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp RSHFT
+            &kp LCTRL     &sl_ga       &sl_ag       &mo 1        &kp BACKSPACE       &kp SPACE  &kp ENTER     &mo 2        &kp LALT     &sl_s
             >;
         };
 
