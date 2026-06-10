@@ -14,7 +14,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      path: deps/zmk
+      path: zmk
       import: app/west.yml
     - name: zmk-dongle-display
       remote: englmaxi
@@ -32,5 +32,9 @@ manifest:
       remote: gpeye
       revision: main
       path: deps/hammerbeam-slideshow
+    - name: zmk-switch-layout
+      remote: mctechnology17
+      revision: main
+      path: deps/zmk-switch-layout
   self:
     path: config
