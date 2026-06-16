@@ -684,7 +684,10 @@ build)
         # shellcheck disable=SC2053
         if [[ "$artifact_name" == $pattern ]]; then
           matched=$((matched + 1))
-          build_target "$artifact_name" || failed=$((failed + 1))
+          if ! build_target "$artifact_name"; then
+            failed=$((failed + 1))
+            break
+          fi
         fi
       done < <(parse_build_config)
       build_end_time=$(date +%s)
