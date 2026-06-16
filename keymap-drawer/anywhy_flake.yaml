@@ -15,14 +15,14 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: LGUI}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '&sl_ga'}
+  - {t: D, h: '&sl_ag'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: RGUI}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: K, h: '&sl_ga'}
+  - {t: L, h: '&sl_ag'}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - .
   - $$mdi:apple-keyboard-shift$$
@@ -120,8 +120,8 @@ layers:
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:bluetooth-off$$
-  - BT CLR ALL
+  - {t: '0', h: BT CLR CMD}
+  - {t: '0', h: BT CLR ALL CMD}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - OUT USB
   - OUT BLE
