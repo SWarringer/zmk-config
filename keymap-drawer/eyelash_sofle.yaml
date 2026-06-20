@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
-  - {t: ']', s: '}'}
-  - {t: '`', s: '~'}
+  - {t: '[', s: '{'}
+  - {t: '-', s: _}
   - A
   - S
   - D
@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -86,10 +86,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - (
-  - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Sft+=, s: Sft++}
+  - {t: Sft+8, s: Sft+*}
+  - {t: Sft+9, s: Sft+(}
+  - {t: '=', s: +}
   - +
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -99,10 +99,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - '|'
-  - '{'
-  - '}'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - \
+  - {t: AltGr+7, s: AltGr+&}
+  - {t: AltGr+0, s: AltGr+)}
+  - Sft+\
   - Sft+B
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,10 +112,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - <
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - '>'
+  - '~'
+  - {t: AltGr+8, s: AltGr+*}
+  - {t: AltGr+9, s: AltGr+(}
+  - {t: 'Sft+]', s: 'Sft+}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

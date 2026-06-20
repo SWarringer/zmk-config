@@ -552,13 +552,13 @@ path.combo {
 </g>
 <g transform="translate(1280, 160)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">]</text>
-<text x="0" y="-34" class="key shifted">}</text>
+<text x="0" y="0" class="key tap">[</text>
+<text x="0" y="-34" class="key shifted">{</text>
 </g>
 <g transform="translate(40, 240)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">`</text>
-<text x="0" y="-34" class="key shifted">~</text>
+<text x="0" y="0" class="key tap">-</text>
+<text x="0" y="-34" class="key shifted">_</text>
 </g>
 <g transform="translate(120, 240)" class="key keypos-27">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -657,8 +657,8 @@ path.combo {
 </g>
 <g transform="translate(1200, 320)" class="key keypos-50">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">-</text>
-<text x="0" y="-34" class="key shifted">_</text>
+<text x="0" y="0" class="key tap">/</text>
+<text x="0" y="-34" class="key shifted">?</text>
 </g>
 <g transform="translate(1280, 320)" class="key keypos-51">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -808,21 +808,25 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(880, 130)" class="key trans keypos-20">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(880, 130)" class="key keypos-20">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">Sft+=</text>
+<text x="0" y="-34" class="key shifted">Sft++</text>
 </g>
 <g transform="translate(960, 130)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">(</text>
+<text x="0" y="0" class="key tap">Sft+8</text>
+<text x="0" y="-34" class="key shifted">Sft+*</text>
 </g>
 <g transform="translate(1040, 120)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">)</text>
+<text x="0" y="0" class="key tap">Sft+9</text>
+<text x="0" y="-34" class="key shifted">Sft+(</text>
 </g>
-<g transform="translate(1120, 130)" class="key trans keypos-23">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(1120, 130)" class="key keypos-23">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">=</text>
+<text x="0" y="-34" class="key shifted">+</text>
 </g>
 <g transform="translate(1200, 160)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -864,19 +868,25 @@ path.combo {
 </g>
 <g transform="translate(880, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">|</text>
+<text x="0" y="0" class="key tap">\</text>
 </g>
 <g transform="translate(960, 210)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">{</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.25em">AltGr</tspan><tspan x="0" dy="1.0em">+7</tspan>
+</text>
+<text x="0" y="-34" class="key shifted"><tspan style="font-size: 71%">AltGr+&amp;</tspan></text>
 </g>
 <g transform="translate(1040, 200)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">}</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.25em">AltGr</tspan><tspan x="0" dy="1.0em">+0</tspan>
+</text>
+<text x="0" y="-34" class="key shifted"><tspan style="font-size: 71%">AltGr+)</tspan></text>
 </g>
-<g transform="translate(1120, 210)" class="key trans keypos-36">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(1120, 210)" class="key keypos-36">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">Sft+\</text>
 </g>
 <g transform="translate(1200, 240)" class="key keypos-37">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -917,21 +927,26 @@ path.combo {
 </g>
 <g transform="translate(880, 290)" class="key keypos-46">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">&lt;</text>
+<text x="0" y="0" class="key tap">~</text>
 </g>
 <g transform="translate(960, 290)" class="key keypos-47">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">[</text>
-<text x="0" y="-34" class="key shifted">{</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.25em">AltGr</tspan><tspan x="0" dy="1.0em">+8</tspan>
+</text>
+<text x="0" y="-34" class="key shifted"><tspan style="font-size: 71%">AltGr+*</tspan></text>
 </g>
 <g transform="translate(1040, 280)" class="key keypos-48">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">]</text>
-<text x="0" y="-34" class="key shifted">}</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.25em">AltGr</tspan><tspan x="0" dy="1.0em">+9</tspan>
+</text>
+<text x="0" y="-34" class="key shifted"><tspan style="font-size: 71%">AltGr+(</tspan></text>
 </g>
 <g transform="translate(1120, 290)" class="key keypos-49">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">&gt;</text>
+<text x="0" y="0" class="key tap">Sft+]</text>
+<text x="0" y="-34" class="key shifted">Sft+}</text>
 </g>
 <g transform="translate(1200, 320)" class="key trans keypos-50">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
