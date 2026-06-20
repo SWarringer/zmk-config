@@ -131,9 +131,9 @@
         Base {
             bindings = <
 &kp ESC     &kp N1     &kp N2    &kp N3  &kp N4    &kp N5      &kp UP     &kp N6     &kp N7     &kp N8     &kp N9         &kp N0         &kp BSPC
-&kp TAB     &kp Q      &kp W     &kp E   &kp R     &kp T       &kp DOWN   &kp Y      &kp U      &kp I      &kp O          &kp P          &kp RIGHT_BRACKET
-&kp GRAVE   &kp A      &kp S     &kp D   &kp F     &kp G       &kp LEFT   &kp H      &kp J      &kp K      &kp L          &kp SEMI       &kp APOS
-&kp LSHFT   &kp Z      &kp X     &kp C   &kp V     &kp B       &kp RIGHT  &kp N      &kp M      &kp COMMA  &kp DOT        &kp MINUS      &kp RSHIFT
+&kp TAB     &kp Q      &kp W     &kp E   &kp R     &kp T       &kp DOWN   &kp Y      &kp U      &kp I      &kp O          &kp P          &kp LEFT_BRACKET
+&kp MINUS   &kp A      &kp S     &kp D   &kp F     &kp G       &kp LEFT   &kp H      &kp J      &kp K      &kp L          &kp SEMI       &kp APOS
+&kp LSHFT   &kp Z      &kp X     &kp C   &kp V     &kp B       &kp RIGHT  &kp N      &kp M      &kp COMMA  &kp DOT        &kp SLASH      &kp RSHIFT
 &kp C_MUTE  &kp LCTRL  &kp LGUI  &mo 1   &kp LALT  &kp BSPC    &kp ENTER  &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_ALT  &kp BACKSLASH
             >;
 
@@ -150,11 +150,11 @@
 
         Function {
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &bt BT_SEL 0  &kp F6         &kp F7                &kp F8                 &kp F9            &kp F10    &kp F11
-&trans   &trans  &trans  &trans  &trans  &trans    &trans        &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &kp PLUS   &kp F12
-&trans   &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 1  &kp PIPE       &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans            &kp RS(B)  &trans
-&trans   &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 2  &kp LESS_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN  &trans     &trans
-&trans   &trans  &trans  &trans  &trans  &trans    &bt BT_CLR    &trans         &trans                &trans                 &trans            &trans
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &bt BT_SEL 0  &kp F6                &kp F7      &kp F8      &kp F9                    &kp F10    &kp F11
+&trans   &trans  &trans  &trans  &trans  &trans    &trans        &kp LS(EQUAL)         &kp LS(N8)  &kp LS(N9)  &kp EQUAL                 &kp PLUS   &kp F12
+&trans   &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 1  &kp NON_US_BACKSLASH  &kp RA(N7)  &kp RA(N0)  &kp LS(NON_US_BACKSLASH)  &kp RS(B)  &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 2  &kp TILDE             &kp RA(N8)  &kp RA(N9)  &kp LS(RIGHT_BRACKET)     &trans     &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &bt BT_CLR    &trans                &trans      &trans      &trans                    &trans
             >;
         };
 
