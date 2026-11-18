@@ -601,7 +601,7 @@ Examples:
   $0 list                                       # List all available targets
   $0 build                                      # Build all firmware from build.yaml
   $0 build my_keyboard_left                     # Build specific target
-  $0 build 'anywhy*'                            # Build all targets matching a wildcard
+  $0 build 'eyelash*'                            # Build all targets matching a wildcard
   $0 clean                                      # Clean build artifacts
   $0 clean my_keyboard_left                     # Clean specific target
   $0 clean_all                                  # Clean all west dependencies
@@ -613,7 +613,7 @@ Examples:
   RUNTIME=docker $0 build                       # Use docker instead of podman
   $0 build my_keyboard_left -DCONFIG_BT_DEVICE_NAME="My Keyboard"    # Override a string config value
   $0 build my_keyboard_left -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n  # Bool overrides
-  $0 build 'anywhy*' -DCONFIG_BT_DEVICE_NAME="AnyWhy Flake White BT" # Override with wildcard
+  $0 build 'eyelash*' -DCONFIG_BT_DEVICE_NAME="Eyelash Sofle BT" # Override with wildcard
 
 EOF
 }
